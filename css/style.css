@@ -1,0 +1,198 @@
+/* Global Styles */
+
+html, body{
+	background-color:#222;
+}
+
+/*Info displayers*/
+.info-box{
+	padding-bottom:20px;
+	padding-right:10px;
+	padding-left:10px;
+}
+
+.info-displayer{
+	height:300px;
+	box-shadow:5px 5px 10px 2px #000;
+	padding:1px 10px 10px 10px;
+}
+
+.more-height{
+	height: 400px;
+}
+
+.lower-height{
+	max-height: 200px;
+}
+
+/*Lime*/
+.background-lime{
+	background-color:#9F3;
+}
+
+.background-lime h1,h2,h3,h4{
+	color:#222;
+}
+
+.background-lime a{
+	color:#FFF;
+}
+
+.background-lime a:hover{
+	color:#CCC;
+}
+
+/*White*/
+.background-white{
+	background-color:#FFF;
+}
+
+.background-white h1,h2,h3,h4{
+	color:#222;
+}
+
+.background-white a{
+	color:#222;
+}
+
+.background-white a:hover{
+	color:#CCC;
+}
+
+
+/*Blue*/
+.background-blue{
+	background-color:#36F;
+}
+
+.background-blue h1,h2,h3,h4,li{
+	color:#FFF;
+}
+
+.background-blue a{
+	color:#FFF;
+}
+
+.background-blue a:hover{
+	color:#CCC;
+}
+/*Orange*/
+.background-orange{
+	background-color:#C60;
+}
+
+.background-orange h1,h2,h3,h4{
+	color:#FFF;
+}
+
+.background-orange a{
+	color:#FFF;
+}
+
+.background-orange a:hover{
+	color:#CCC;
+}
+/*Pink*/
+.background-pink{
+	background-color:#C69;
+}
+
+.background-pink h1,h2,h3,h4{
+	color:#222;
+}
+
+.background-pink a{
+	color:#FFF;
+}
+
+.background-pink a:hover{
+	color:#CCC;
+}
+
+/*Acqua*/
+.background-acqua{
+	background-color: #0C9;
+}
+
+.background-acqua h1,h2,h3,h4{
+	color:#FFF;
+}
+
+.background-acqua a{
+	color:#FFF;
+}
+
+.background-acqua a:hover{
+	color:#CCC;
+}
+
+/*Photo*/
+.background-photo{
+	background-image:url(../img/avatar/small/andrea-marchetti.jpg);
+}
+
+@media (max-width: 991px) {
+  .background-photo{
+	background-image:url(../img/avatar/medium/andrea-marchetti.jpg);
+	}
+  .info-box{
+  	min-width:340px;
+  }
+}
+
+
+/*Navbar setting*/
+.navbar-inverse{
+	border:none;
+}
+
+.navbar-nav{
+	font-size:20px;
+}
+
+/*Icons*/
+.social-icon{
+	font-size:50px;
+	text-align:center;
+	margin-top:20px;
+}
+
+.cv-icon{
+	font-size:80px;
+	text-align:center;
+	margin-top:30px;
+}
+
+/*Skills*/
+.ul-skill{
+	margin-left:-22px;
+}
+
+.ul-skill li{
+	display: inline-table;
+	background-color: rgba(255,255,255,0.7);
+	color:#000;
+	font-size:14px;
+	border-radius:5px;
+	padding:8px;
+	margin-bottom:8px;
+	margin-right:3px;
+}
+
+.ul-skill li:hover{
+	box-shadow:3px 3px 5px 0px #222;
+	cursor:help;
+}
+
+/*Color selector*/
+.selector li{
+	display:inline;
+	color:#FFF;
+	font-size:14px;
+	margin-right:5px;
+}
+
+.selector a li:hover{
+	text-decoration:underline;
+}
+
